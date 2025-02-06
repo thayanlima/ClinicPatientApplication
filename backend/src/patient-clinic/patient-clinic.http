@@ -1,0 +1,20 @@
+# list patient_clinic
+
+
+### get patient-clinic
+GET http://localhost:3001/patient-clinic
+
+### create patient
+POST http://localhost:3001/patient-clinic
+Content-Type: application/json
+
+{
+    "patientId": 4,
+    "clinicId": 3
+}
+### update patient
+PATCH http://localhost:3001/patient-clinic
+
+### delete patient
+DELETE http://localhost:3001/patient-clinic
+

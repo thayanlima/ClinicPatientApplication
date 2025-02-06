@@ -1,0 +1,26 @@
+### Listar todas as clínicas
+GET http://localhost:3001/clinic
+
+### Buscar uma clínica por ID
+GET http://localhost:3001/clinic/1
+
+### Criar uma nova clínica
+POST http://localhost:3001/clinic
+Content-Type: application/json
+
+{
+  "name": "Clinica A",
+  "address": "Rua 1"
+}
+
+### Atualizar uma clínica existente
+PATCH http://localhost:3001/clinic/1
+Content-Type: application/json
+
+{
+  "name": "Clinica A Atualizada",
+  "address": "Rua 1, Número 100"
+}
+
+### Excluir uma clínica
+DELETE http://localhost:3001/clinic/1

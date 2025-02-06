@@ -1,0 +1,20 @@
+# list patient
+
+
+### get patient
+GET http://localhost:3001/patient
+
+### create patient
+POST http://localhost:3001/patient
+Content-Type: application/json
+
+{
+    "name": "Julio",
+    "age": 25
+}
+### update patient
+PATCH http://localhost:3001/patient
+
+### delete patient
+DELETE http://localhost:3001/patient/5
+
