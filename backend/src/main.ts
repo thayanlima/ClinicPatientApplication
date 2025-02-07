@@ -12,10 +12,11 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: 'http://localhost:5173', // URL do seu frontend
+    origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
-  }); // Habilita o CORS
+  });
+  
   await app.listen(3001); // Porta do backend
 }
 bootstrap();

@@ -1,0 +1,15 @@
+# node_modules
+node_modules/
+
+# Arquivos de build do NestJS
+dist/
+
+# Arquivos de build do React
+frontend/build/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.env
+*.tmp

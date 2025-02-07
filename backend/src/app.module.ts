@@ -10,12 +10,12 @@ import { PatientClinicModule } from './patient-clinic/patient-clinic.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: process.env.DB_HOST || 'postgres', // Use a variável de ambiente ou o nome do serviço
       port: 5432,
-      password: 'admin',
-      username: 'postgres',
+      username: process.env.DB_USER || 'postgres',
+      password: process.env.DB_PASSWORD || 'admin',
+      database: process.env.DB_NAME || 'postgres',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      database: 'postgres',
       synchronize: true,
       logging: true,
     }),
