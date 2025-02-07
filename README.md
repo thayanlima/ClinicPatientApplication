@@ -1,5 +1,7 @@
 Documentação da Aplicação
+
 Visão Geral
+
 A aplicação é uma solução fullstack para gerenciar pacientes, clínicas e o relacionamento entre eles. O backend foi desenvolvido em NestJS com banco de dados PostgreSQL, enquanto o frontend foi desenvolvido em React com Vite. A aplicação está conteinerizada usando Docker e Docker Compose, permitindo fácil execução local.
 
 Funcionalidades
