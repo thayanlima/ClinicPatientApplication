@@ -152,7 +152,9 @@ Nome do autor: Thayan Lima
 GitHub: thayanlima
 
 Application Documentation
+
 Overview
+
 The application is a full-stack solution for managing patients, clinics, and their relationships. The backend was developed using NestJS with a PostgreSQL database, while the frontend was built with React and Vite. The application is containerized using Docker and Docker Compose, enabling easy local execution.
 
 Backend Features
